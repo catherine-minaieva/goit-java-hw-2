@@ -28,7 +28,10 @@ public class NameEncoderDecoder {
         String nameCode = names.encode("Crab");
         System.out.println("names.encode(\"Crab\") = " + nameCode);
 
-        String nameDeCode = names.decode("NOTFORYOUNOTFORYOUYESNOTFORYOU");
+        String nameDeCode = names.decode("NOTFORYOUCr5bYESNOTFORYOU");
         System.out.println("names.decode(\"NOTFORYOUCr5bYESNOTFORYOU\") = " + nameDeCode);
+
+        String nameDeCodeTwo = names.decode("NOTFORYOUNOTFORYOUYESNOTFORYOU");
+        System.out.println("names.decode(\"NOTFORYOUNOTFORYOUYESNOTFORYOU\") = " + nameDeCodeTwo);
            }
 }
