@@ -1,5 +1,3 @@
-package main;
-
 public class NameEncoderDecoder {
     public String encode(String name) {
         String changedName = name
