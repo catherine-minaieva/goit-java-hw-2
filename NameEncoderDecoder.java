@@ -10,7 +10,7 @@ public class NameEncoderDecoder {
     }
     public String decode(String name) {
         String decodeName = name
-                .replace("NOTFORYOU", "")
+                .replace("YESNOTFORYOU", "")
                 .replace("YES", "")
                 .replace("1", "e")
                 .replace("2", "u")
